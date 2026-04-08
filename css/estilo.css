@@ -1,0 +1,12 @@
+.marca{
+ position: fixed;    /* esto hace que el elemento no se mueva al bahjar con nosotros */
+    bottom: 20px;       /* distancia desde la parte inferior */
+    right: 20px;        /* distancia desde la derecha */
+    background-color: rgba(0, 0, 0, 0.7); /* fondo oscuro semitransparente */
+    color: white;       /* Color del texto */
+    padding: 10px 20px; /* espaciado interno */
+    border-radius: 50px;/*Se pueden poner bordes redondeados para mejor aspecto */
+    font-weight: bold;
+    z-index: 1000;      /* Ponemos para asegurarnos que esté por encima de tablas e imágenes y quede mejor */
+   
+}
